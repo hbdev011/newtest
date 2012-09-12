@@ -5,13 +5,8 @@ gem 'rails', '3.1.0.rc8'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-group :development do
-	gem 'mysql2'
-end
-group :production do
-	gem 'pg'
-end
-gem 'haml'
+gem 'pg'
+
 
 
 # Gems used only for assets and not required
